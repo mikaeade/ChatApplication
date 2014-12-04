@@ -3,13 +3,11 @@ ChatApplication
 This Chat application consists of:
 
 Client Application: 
-  Implemented with JavaFX 
-    user can send message, own name, private message the selected other chat member, change message color and font size
-    client app run on its onw thread.
+  Implemented with JavaFX. User can send chat messages including own name, private message to a selected other chat member,change message color and font size. Client app runs on its own thread.
     
 Server:
   Implemented with Java
-    creates a new thread for each chat member and broadcasts messages to all/private chat members 
+    creates a new thread for each chat member and broadcasts messages to all/private chat members. 
     
 Supports multiple users.
 
